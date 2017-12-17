@@ -6,7 +6,10 @@
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        
+    <Grid x:Name="Grid">
+        <Button x:Name="ButtonEntre" Content="entring" HorizontalAlignment="Left" Height="31" Margin="48,106,0,0" VerticalAlignment="Top" Width="111" Click="ButtonEntre_Click"/>
+        <Button x:Name="ButtonLeave" Content="leaving" HorizontalAlignment="Left" Height="31" Margin="351,106,0,0" VerticalAlignment="Top" Width="111" Click="ButtonLeave_Click"/>
+        <TextBlock x:Name="LabelTeller" HorizontalAlignment="Left" Height="34" Margin="214,216,0,0" TextWrapping="Wrap" Text="Cars in the park" VerticalAlignment="Top" Width="162"/>
+        <Label x:Name="LabelCounter" Content="0" HorizontalAlignment="Left" Height="23" Margin="170,211,0,0" VerticalAlignment="Top" Width="44"/>
     </Grid>
 </Window>
